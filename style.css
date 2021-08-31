@@ -48,6 +48,7 @@ main img {
 
 .item-double {
   flex: 2;
+  padding-top: 5%;
 }
 
 /* -------  Navigation ------- */
@@ -133,7 +134,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px) {
+@media all and (min-width: 1080px) {
   header {
     padding-top: 0px;
     display: flex;
