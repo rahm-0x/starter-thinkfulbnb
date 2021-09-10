@@ -76,6 +76,7 @@ header nav ul {
   justify-content: center;
   flex-direction: row;
   padding-bottom: 10px;
+  padding-top: 15px
 }
 
 header nav ul li a {
