@@ -58,6 +58,7 @@ header {
   background-color: #ff385c;
   padding: 0 20px 0 0;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -136,7 +137,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px) {
+@media (min-width: 480px) {
   header {
     padding-top: 0px;
     display: flex;
@@ -144,6 +145,7 @@ footer p {
   }
   .group {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
   }
 
